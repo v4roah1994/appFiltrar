@@ -1,0 +1,7 @@
+{
+  "name": "AppFiltrar",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
