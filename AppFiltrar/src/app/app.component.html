@@ -1,3 +1,32 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Filtrado de datos</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content [fullscreen]="true" class="ion-padding">
+    <div id="info">
+      <h1>Bienvenido</h1>
+      <p>Selecciona la categoria que deseas buscar</p>
+    </div>
+    <div class="center-content">
+      
+      <ion-button 	 shape="round">Cursos</ion-button>
+      <br>
+      <ion-button shape="round">Estudiantes</ion-button>
+
+    </div>
+  </ion-content>
+
+  <ion-footer>
+    <ion-toolbar>
+      <ion-title>
+        <p class="text-white my-2">
+          &copy; Camilo , Daniel & Yina
+        </p>
+      </ion-title>
+
+    </ion-toolbar>
+  </ion-footer>
 </ion-app>
