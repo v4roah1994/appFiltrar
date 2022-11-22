@@ -1,0 +1,10 @@
+Comando para correr el servicio:
+
+...ms_appionic>npm run dev
+
+Endpoint:
+url de prueba (GET): http://localhost:3001/api/v1
+Lista de personas (GET): http://localhost:3001/api/v1/getPersonas
+Lista de cursos (GET): http://localhost:3001/api/v1/getCursos
+
+Rquerimientos instalar nodejs. Link de descarga: https://nodejs.org/en/
