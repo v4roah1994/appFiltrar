@@ -12,9 +12,14 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'search',
-    loadChildren: () => import('./page/search/search.module').then( m => m.SearchPageModule)
+    path: 'cursos',
+    loadChildren: () => import('./page/cursos/cursos.module').then( m => m.CursosPageModule)
+  },  {
+    path: 'estudiantes',
+    loadChildren: () => import('./page/estudiantes/estudiantes.module').then( m => m.EstudiantesPageModule)
   }
+
+
 
 ];
 
