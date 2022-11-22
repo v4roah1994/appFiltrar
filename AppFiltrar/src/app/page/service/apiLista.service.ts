@@ -17,5 +17,6 @@ export class CursosService {
 
   getEstudiantes(){ 
     return this.http.get<any>(this.urlE)
+  
   }
 }
